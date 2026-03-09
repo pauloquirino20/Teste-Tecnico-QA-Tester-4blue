@@ -19,6 +19,7 @@ Resultado atual: A tela de Criação de Conta permite a criação de uma nova co
 Resultado esperado: A tela de Criação de Conta deve validar se o e-mail já está cadastrado e impedir a criação de contas duplicadas, exibindo uma mensagem como:  "Este e-mail já está cadastrado."
 
 Severidade: Critica
+
 Prioridade: Alta 
 
 ---
@@ -41,6 +42,7 @@ Resultado esperado: A tela de Criação de Conta deve validar os campos antes do
 •	A senha não atender aos requisitos mínimos (ex: 8 caracteres e 1 caractere especial).
 
 Severidade: Alta
+
 Prioridade: Media
 
 ---
@@ -57,6 +59,7 @@ Resultado atual: Os campos do formulário estão desalinhados e fora do padrão 
 Resultado esperado: Os campos do formulário de cadastro devem estar corretamente alinhados, com largura padronizada e espaçamento uniforme, respeitando o layout do container. Nenhum campo deve ultrapassar os limites do formulário ou apresentar sobreposição visual.
 
 Severidade: Média
+
 Prioridade: Baixa
 
 ---
@@ -64,8 +67,10 @@ Prioridade: Baixa
 ## Quais 2 bugs você corrigiria primeiro e por quê? 
 
 Os dois bugs que eu corrigiria seriam: 
+
 Cenário 1
 Corrigira esse bug primeiramente por possuir alta prioridade, pois afeta diretamente a integridade dos dados e a regra de negócio do sistema. Permitir múltiplas contas com o mesmo e-mail pode causar problemas de autenticação, inconsistência de dados e impactar a experiência do usuário.
+
 Cenário 2
 Em seguida corrigira esse bug por também possui alta prioridade, pois permite o envio de dados inválidos para o sistema, o que pode comprometer a qualidade das informações armazenadas e gerar problemas futuros no uso da aplicação.
 
@@ -74,9 +79,13 @@ Em seguida corrigira esse bug por também possui alta prioridade, pois permite o
 ## Caso tenha, coloque suas sugestões de melhorias para essas telas.
 
 •	Implementar validação em tempo real nos campos.
+
 •	Exibir mensagens claras de erro abaixo dos campos quando os dados forem inválidos.
+
 •	Padronizar alinhamento e tamanho dos inputs para manter consistência visual no formulário.
+
 •	Adicionar feedback visual para confirmação de senha, indicando quando as senhas não coincidem.
+
 •	Implementar verificação para impedir cadastro com e-mails já registrados.
 
 
