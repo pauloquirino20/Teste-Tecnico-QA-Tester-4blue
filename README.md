@@ -69,9 +69,11 @@ Prioridade: Baixa
 Os dois bugs que eu corrigiria seriam: 
 
 Cenário 1
+
 Corrigira esse bug primeiramente por possuir alta prioridade, pois afeta diretamente a integridade dos dados e a regra de negócio do sistema. Permitir múltiplas contas com o mesmo e-mail pode causar problemas de autenticação, inconsistência de dados e impactar a experiência do usuário.
 
 Cenário 2
+
 Em seguida corrigira esse bug por também possui alta prioridade, pois permite o envio de dados inválidos para o sistema, o que pode comprometer a qualidade das informações armazenadas e gerar problemas futuros no uso da aplicação.
 
 ---
